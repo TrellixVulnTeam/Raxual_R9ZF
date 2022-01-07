@@ -160,11 +160,11 @@ const imageToBase64 = require('image-to-base64')
         anu_user = w.vname || w.notify || num.split("@")[0];
         time_wel = moment.tz("Asia/Jakarta").format("HH:mm");
         memeg = mdata.participants.length;
-        out = `Why is that? how come out? \nGood bye ${anu_user} we will miss you`;
+        out = `Why is that? how come out? \nGood bye ${anu_user} we will never miss you`;
 
                buff = await getBuffer(`https://fdz-app.herokuapp.com/api/maker/goodbye?name=${anu_user}&picurl=${imge}&namegrp=${encodeURI(mdata.subject)}&imggrp=${ime}&member=@${anu_user}&picbg=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_nUY-WcxLBvTRJPNBUKhqWA6LdZCmZG75A&usqp=CAU`);
         buttons = [
-          { buttonId: `y`, buttonText: { displayText: "Good Bye👋" }, type: 1 },
+          { buttonId: `y`, buttonText: { displayText: "Chla Ja Bsdk 😂" }, type: 1 },
         ];
         imageMsg = (
           await hyper.prepareMessageMedia(buff, "imageMessage", {
