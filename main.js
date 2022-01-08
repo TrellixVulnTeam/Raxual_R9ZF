@@ -231,18 +231,18 @@ const imageToBase64 = require('image-to-base64')
     remoteJid: "0@s.whatsapp.net"},message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "hyperbot", "caption": `Creator Botwea © 2K21`, 'jpegThumbnail': fs.readFileSync(`image/${setting.thumb}`)}}}    	
       metdata = await hyper.groupMetadata(anu.jid)
         if(anu.announce == 'false'){
-        teks = `「 GROUP OPENED 」\n\nGroup has been opened by admin\nNow all members can send messages`
+        teks = `「 GROUP KHULA HAI 」\n\nGroup Ko Admin Ne Khol Diya Hai\nAb Sab Message Kar Sakte Hai`
         hyper.sendMessage(metdata.id, teks, MessageType.text, {quoted: falfa})
         console.log(clc.yellow(`[ Group Opened ] In ${metdata.subject}`))
       }
       else if(anu.announce == 'true'){
-        teks = `「 GROUP CLOSED 」\n\nThe group has been closed by admin\nNow only admins can send messages`
+        teks = `「 GROUP BAND HAI 」\n\nGroup Ko Admin Ne Band Kardiya Hai\nAb Admin Ke Alawa Koi Mai Ka Lal Msg Nahi Kar Sakta`
         hyper.sendMessage(metdata.id, teks, MessageType.text, {quoted: falfa})
         console.log(clc.yellow(`[ Group Closed ] In ${metdata.subject}`))
       }
       else if(!anu.desc == ''){
         tag = anu.descOwner.split('@')[0] + '@s.whatsapp.net'
-        teks = `「 GROUP DESCRIPTION CHANGE 」\n\nGroup description has been changed \nBy Admin @${anu.descOwner.split('@')[0]}\n• New Description : \n${anu.desc}`
+        teks = `「 GROUP KA DESCRIPTION CHANGE HOGYA HAI 」\n\nGroup Ka Discription Change Hogya Hai \nBy Admin @${anu.descOwner.split('@')[0]}\n• New Description : \n${anu.desc}`
         hyper.sendMessage(metdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [tag]}, quoted: falfa})
         console.log(clc.yellow(`[ Group Description Change ] In ${metdata.subject}`))
       }
