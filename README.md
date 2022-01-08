@@ -9,7 +9,7 @@
 <div align="center">
   <p align="center">
   <a href="https://youtu.be/BcMIibIUmHc"><img src="https://media.giphy.com/media/Uhl43Qa5QbhKglX8DX/giphy.gif" alt="GIF" width="128" height="128"/>
-</p>g
+</p>
 WhatsApp Bot
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nikkus123/Raxual)
@@ -39,13 +39,13 @@ WhatsApp Bot
 
 ## `SETTING`
 
-- Owner number [Here](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L4)
-- Owner Name [Here](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L14)
-- Bot Name [Here](https://github.com/HYPER-MOD/Queen-Alexa/blob/main/settings.json#L15)
+- Owner number [Here](https://github.com/nikkus123/Raxual/main/settings.json#L4)
+- Owner Name [Here](https://github.com/nikkus123/Raxual/main/settings.json#L14)
+- Bot Name [Here](https://github.com/nikkus123/Raxual/main/settings.json#L15)
 
 ## `CHANGE DYNO`
 
-Off in web ny | ඔෆ් කරන්න web එක | turn off web button.
+Off in web ny | | turn off web button.
 
 ----------
 
@@ -66,4 +66,4 @@ Off in web ny | ඔෆ් කරන්න web එක | turn off web button.
 
 ## ```COFFEE```
 
-- [`SAWERIA`](https://saweria.co/hypermod)
+- [`SAWERIA`](https://saweria.co/hypermod) the
